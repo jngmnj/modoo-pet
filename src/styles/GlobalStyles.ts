@@ -1,8 +1,8 @@
-import styled from '@emotion/styled';
+// import styled from '@emotion/styled';
 
-const Container = styled.div`
-  width: 1408px;
-  margin: 0 auto;
-`;
+// const Container = styled.div`
+//   width: 1408px;
+//   margin: 0 auto;
+// `;
 
-export { Container };
+// export { Container };
