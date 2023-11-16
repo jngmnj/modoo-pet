@@ -4,6 +4,7 @@ import MainPage from "../pages/MainPage";
 import BoardList from "../pages/BoardList";
 import LoginPage from "../pages/Login";
 import ProfilePage from "../pages/Profile";
+import RegisterPage from "../pages/Register";
 
 const Router = () => {
   return (
@@ -11,9 +12,13 @@ const Router = () => {
       <Routes>
         <Route path="/" element={<Layout />}>
           <Route index path="/" element={<MainPage />} />
-          <Route path="/board" element={<BoardList />} />
+          <Route path="/hospitals" element={<BoardList />} />
+          <Route path="/review" element={<BoardList />} />
+          <Route path="/promotion" element={<BoardList />} />
+          <Route path="/community" element={<BoardList />} />
           <Route path="/login" element={<LoginPage />} />
           <Route path="/profile" element={<ProfilePage />} />
+          <Route path="/register" element={<RegisterPage />} />
         </Route>
       </Routes>
     </BrowserRouter>

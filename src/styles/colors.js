@@ -26,6 +26,7 @@ const colors = {
   green800: '#376b25',
   green900: '#2a511c',
 
+  orange: '#FE841B',
 
   error: '#ba1a1a',
   error2: '#E31B1B',
